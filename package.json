@@ -1,0 +1,32 @@
+{
+  "name": "scenery-fontawesome-5",
+  "version": "0.0.1",
+  "description": "FontAwesome 5 icons in SceneryStack-compatible formats",
+  "keywords": [
+    "FontAwesome",
+    "icons",
+    "SceneryStack"
+  ],
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanolson/scenery-fontawesome-5.git"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "exports": {
+    "import": "./dist/index.js"
+  },
+  "peerDependencies": {
+    "scenerystack": "^0.0.30"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2"
+  }
+}
